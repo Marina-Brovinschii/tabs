@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs</title>
+    <style>
+        body {
+            background-image: url(https://cdn.futura-sciences.com/sources/images/actu/rotation-galaxie-spirale-univers.jpeg);
+        }
+        #google {
+            color: white;
+            font-size: 90px;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-top: 200px;
+            margin-left: 600px;
+        }
+        .search {
+            width: 500px;
+            height: 40px;
+            margin-left: 480px;
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+        .tabs {
+            margin-left: 475px;
+        }
+        .tabs-item {
+            border-radius: 10px;
+            display: inline-block;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            height: 110px;
+            transition: 0.35s;
+        }
+        .tabs-item:hover {
+            background-color: rgba(0, 0, 255, 0.274);
+        }
+        .tabs-link {
+            color: white;
+            text-decoration: none;
+        }
+        .tabs-point {
+            color: white;
+            font-size: 20px;
+            line-height: 5px;
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            background-color: grey;
+            opacity: 0.0;
+            transition: 0.35s;
+        }
+        .tabs-point:hover {
+            opacity: 1.0;
+        }
+    </style>
+</head>
+<body>
+    <div id="google">Google</div>
+    <form action="https://www.google.com/search">
+    <input class="search" type="text" name="q">
+    </form>
+    <ul class="tabs">
+        <li class="tabs-item" title="ChatGPT">
+            <a class="tabs-link" href="https://chat.openai.com/">
+                <div style="background-color: white; padding: 15px;border-radius: 30px; margin: 5px 30px;">
+                    <img src="chatGPT.png" alt=""></div><br>ChatGPT
+            </a>
+            <div class="tabs-point" style="transform: translateX(90px) translateY(-110px);">. <br>. <br>.</div>
+        </li>
+        <li class="tabs-item" title="gmail.com">
+            <a class="tabs-link" href="https://mail.google.com/">
+                <div style="background-color: white; padding: 15px;border-radius: 30px; margin: 5px 30px;">
+                    <img src="gmail.png" alt=""></div><br>Gmail
+            </a>
+            <div class="tabs-point" style="transform: translateX(90px) translateY(-110px);">. <br>. <br>.</div>
+        </li>
+        <li class="tabs-item" title="htmlbook">
+            <a class="tabs-link" href="https://htmlbook.ru/">
+                <div style="background-color: white; padding: 15px;border-radius: 30px; margin: 5px 30px;">
+                    <img src="Home.png" alt=""></div><br>Home
+            </a>
+            <div class="tabs-point" style="transform: translateX(90px) translateY(-110px);">. <br>. <br>.</div>
+        </li>
+    </ul>
+    <ul class="tabs">
+        <li class="tabs-item" title="IconArchive">
+            <a class="tabs-link" href="https://www.iconarchive.com/">
+                <div style="background-color: white; padding: 15px;border-radius: 30px; margin: 5px 30px;">
+                    <img src="Icon Archive.png" alt="">
+                </div><br>IconArchive
+            </a>
+            <div class="tabs-point" style="transform: translateX(90px) translateY(-110px);">. <br>. <br>.</div>
+        </li>
+        <li class="tabs-item" title="iLovePDF">
+            <a class="tabs-link" href="https://www.ilovepdf.com/">
+                <div style="background-color: white; padding: 15px;border-radius: 30px; margin: 5px 30px;">
+                    <img src="iLovePDF.png" alt="">
+                </div><br>iLovePDF
+            </a>
+            <div class="tabs-point" style="transform: translateX(90px) translateY(-110px);">. <br>. <br>.</div>
+        </li>
+        <li class="tabs-item" title="VB24Business">
+            <a class="tabs-link" href="https://business.vb24.md/VB24Business/Login.aspx">
+                <div style="background-color: white; padding: 15px;border-radius: 30px; margin: 5px 30px;">
+                    <img src="Login.png" alt="">
+                </div><br>Login
+            </a>
+            <div class="tabs-point" style="transform: translateX(90px) translateY(-110px);">. <br>. <br>.</div>
+        </li>
+    </ul>
+</body>
+</html>
